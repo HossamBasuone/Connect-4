@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101a35">
+    <title>Connect 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="OIP.jpg" type="image/x-icon">
+    <script src="js.js" defer></script>
+</head>
+<body>
+
+    <header class="game-header">
+        <h1>CONNECT <span>4</span></h1>
+        <p>Drop your pieces. Connect four. Win the game!</p>
+    </header>
+
+    <main class="game-container">
+
+        <div id="winner" role="status" aria-live="polite">
+            Red's turn
+        </div>
+
+        <section class="shape" aria-label="Connect 4 game">
+
+            <div class="board-wrapper">
+                <div id="board" aria-label="Game board"></div>
+            </div>
+
+            <aside class="score">
+                <div class="score-card red-card">
+                    <div class="player-info">
+                        <span class="player-dot red-dot"></span>
+                        <span class="player-name">RED</span>
+                    </div>
+                    <div class="score-number" id="redCounter">0</div>
+                </div>
+
+                <div class="score-card blue-card">
+                    <div class="player-info">
+                        <span class="player-dot blue-dot"></span>
+                        <span class="player-name">BLUE</span>
+                    </div>
+                    <div class="score-number" id="blueCounter">0</div>
+                </div>
+            </aside>
+
+        </section>
+
+        <div class="buttons">
+            <button id="clear" type="button">
+                <span>↻</span> New Game
+            </button>
+
+            <button id="Reset" type="button">
+                <span>⟲</span> Reset Scores
+            </button>
+        </div>
+
+        <p class="game-tip">
+            💡 Click any column to drop your piece.
+        </p>
+
+    </main>
+
+    <footer>
+        Made for fun <span>♥</span>
+    </footer>
+
+</body>
+</html>
