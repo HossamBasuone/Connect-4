@@ -17,7 +17,7 @@ CSS3 — Styling, animations, and responsive layout
 JavaScript — Game logic, player turns, win detection, and score management
 
 📸 Screenshots
-<img width="452" height="250" alt="image" src="https://github.com/user-attachments/assets/b8bef585-b546-4519-ac39-8f34b504a3ad" />
+<img width="1892" height="1061" alt="image" src="https://github.com/user-attachments/assets/b1526f2c-cda8-464f-91c8-789b1bab139b" />
 <img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/3bae3ff8-c8de-4058-b0cf-4da2e5ee39ed" />
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/d0de6c08-4f00-40de-98c8-5b5351eb3284" />
 
